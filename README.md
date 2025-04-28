@@ -10,7 +10,7 @@
 ```bash
 $ npm start
 ```
-[서비스 링크](https://club-project-one.vercel.app/)
+[서비스 링크](http://13.125.52.254/)
 
 <br/>
 <br/>
