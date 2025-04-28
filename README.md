@@ -67,25 +67,47 @@ $ npm start
 > 코드 스타일은 **Black**과 **Isort**를 사용해 일관성 있게 관리했습니다.
 
 
-# 6. Project Structure (프로젝트 구조)
+# 5. Project Structure (프로젝트 구조)
 ```plaintext
-project/
-├── public/
-│   ├── index.html           # HTML 템플릿 파일
-│   └── favicon.ico          # 아이콘 파일
-├── src/
-│   ├── assets/              # 이미지, 폰트 등 정적 파일
-│   ├── components/          # 재사용 가능한 UI 컴포넌트
-│   ├── hooks/               # 커스텀 훅 모음
-│   ├── pages/               # 각 페이지별 컴포넌트
-│   ├── App.js               # 메인 애플리케이션 컴포넌트
-│   ├── index.js             # 엔트리 포인트 파일
-│   ├── index.css            # 전역 css 파일
-│   ├── firebaseConfig.js    # firebase 인스턴스 초기화 파일
-│   package-lock.json    # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
-│   package.json         # 프로젝트 종속성 및 스크립트 정의
-├── .gitignore               # Git 무시 파일 목록
-└── README.md                # 프로젝트 개요 및 사용법
+oz_form/
+├── app/
+│   ├── static/
+│   │   └── images/            # 팀 로고 이미지 등 정적 파일
+│   ├── templates/             # HTML 템플릿 파일
+│   │   ├── index.html
+│   │   ├── signup.html
+│   │   ├── quiz.html
+│   │   ├── question.html
+│   │   ├── results.html
+│   │   └── admin_login.html
+│   ├── services/              # 서비스 로직 (DB 조작 및 비즈니스 로직)
+│   │   ├── answers.py
+│   │   ├── choices.py
+│   │   ├── images.py
+│   │   ├── questions.py
+│   │   ├── result_service.py
+│   │   └── users.py
+│   ├── __init__.py            # Flask 앱 초기화 파일
+│   ├── api_routes.py          # API용 라우터
+│   ├── models.py              # SQLAlchemy 모델 정의
+│   ├── routes.py              # 웹페이지 라우터
+│   └── seeds.py               # 초기 데이터 삽입 스크립트
+├── migrations/                # DB 마이그레이션 파일
+│   ├── alembic.ini
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions/
+├── oz_form/                   # 추가 설정 디렉토리
+├── re_images/                 # (임시) 이미지 저장 폴더
+├── .gitignore                 # Git에 업로드 제외 파일 목록
+├── config.py                  # 앱 설정 파일
+├── my-key.pem                 # EC2 접속 키파일 (⚠️ Git 업로드 금지)
+├── README.md                  # 프로젝트 개요 및 사용법
+├── requirements.txt           # 필요한 라이브러리 목록
+├── run.py                     # 로컬 서버 실행 파일
+├── run_seeds.py               # DB seed 데이터 삽입 실행 파일
+└── wsgi.py                    # Gunicorn용 WSGI 엔트리포인트
+
 ```
 
 <br/>
