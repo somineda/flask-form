@@ -1,18 +1,24 @@
-<a href="https://club-project-one.vercel.app/" target="_blank">
-  ## 📸 실행 화면
+## 📸 실행 화면
+  
 ### 초기 화면 페이지
 <img width="888" alt="스크린샷 2025-04-28 오전 10 46 08" src="https://github.com/user-attachments/assets/ce54b510-a243-4467-a48f-b5786e5d002f" />
 
 
 ### 회원가입 페이지
-![회원가입](./images/signup.png)
-
+<img width="896" alt="스크린샷 2025-04-27 오후 9 51 31" src="https://github.com/user-attachments/assets/a9472abf-5063-4305-ba4a-4b68757a39c0" />
 
 ### 설문 참여 페이지
-![설문 참여](./images/question.png)
+<img width="1187" alt="스크린샷 2025-04-27 오후 9 52 54" src="https://github.com/user-attachments/assets/38f891d6-9060-4853-9b11-8bb73d163eba" />
+<img width="1187" alt="스크린샷 2025-04-27 오후 9 52 47" src="https://github.com/user-attachments/assets/2f2c8942-47d9-4747-9a78-1a8006292a10" />
 
 ### 설문 결과 페이지
-![설문 결과](./images/result.png)
+<img width="1187" alt="스크린샷 2025-04-27 오후 9 52 39" src="https://github.com/user-attachments/assets/990b852b-945a-41f4-8959-af05a53eac7b" />
+
+### 관리자 페이지
+![스크린샷 2025-04-27 오후 5 35 54](https://github.com/user-attachments/assets/b1a5da45-4341-49a1-9f34-cab61c4bb1b1)
+
+
+
 
 
 
